@@ -1,11 +1,13 @@
-import "./styles.css";
-import Login from './Login';
+import "./App.css";
+import Login from "./Login";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      
-      <Login/>
+      <h2>Demo Form</h2>
+      <Login />
     </div>
   );
 }
+
+export default App;
